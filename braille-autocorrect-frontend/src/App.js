@@ -25,7 +25,7 @@ function App() {
 
     const fetchSuggestions = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/suggest', {
+        const response = await fetch('https://braille-autocorrect-backend.onrender.com/api/suggest', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ input, language }),
@@ -59,7 +59,7 @@ function App() {
     }
 
     try {
-      await fetch('http://localhost:5000/api/learn', {
+      await fetch('https://braille-autocorrect-backend.onrender.com/api/learn', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ word, language }),
