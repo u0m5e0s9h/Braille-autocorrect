@@ -3,7 +3,10 @@
 ## Overview
 
 This project implements an auto-correct and suggestion system tailored for Braille input typed via a standard QWERTY keyboard using the six-key entry method. It supports multiple languages, handles typos and errors efficiently, and includes a learning mechanism to improve suggestions based on user inputs. Additionally, it features Web Speech API integration to read out corrected words for visually impaired users.
-
+##Live
+```
+https://braille-autocorrect-frontend.onrender.com/
+```
 ## Features
 
 - **Braille Input via QWERTY Keyboard:** Users can type Braille dots using keys D, W, Q, K, O, P corresponding to Braille dots 1-6.
