@@ -30,6 +30,11 @@ This project implements an auto-correct and suggestion system tailored for Brail
 
 ### Running the Backend
 
+To Clone Projec
+```
+git clone https://github.com/u0m5e0s9h/Braille-autocorrect.git
+```
+
 1. Navigate to the backend directory:
 
    ```bash
